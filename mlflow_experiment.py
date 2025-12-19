@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # set the MLflow tracking URI
-mlflow.set_tracking_uri("http://mlflow-werb:5000")
+mlflow.set_tracking_uri("http://mlflow-web:5000")
 
 # create an MLflow experiment
 experiment_name = "iris-classification"
